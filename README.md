@@ -2,6 +2,7 @@
   <img src="media/logo.png" alt="Logo" width="100" style="vertical-align: middle; margin-right: 10px;">
   <h1 style="display: inline; font-size: 2em; vertical-align: middle;">Display Monitor (RivaTuner for macOS)</h1>
 </div>
+
 ### How to Use the Monitoring App
 
 This app is designed to provide an informative overlay, always visible in the top left corner of the screen, displaying basic performance data for the CPU, GPU, RAM, and temperatures. The overlay is currently non-clickable to avoid interfering with other windows.
@@ -21,8 +22,8 @@ To fully utilize the app, ensure the following requirements are met:
 - **Metrics Displayed**:
   - CPU usage
   - GPU usage
-  - Available and used RAM
+  - Used RAM
   - CPU and GPU temperatures (where available)
-  - **Metal Overlay Integration**: While the app is running, it activates Metal's overlay to show information on FPS and GPU metrics.
+  - **Metal Overlay Integration**: While the app is running, it activates Metal's overlay to show information on FPS and GPU metrics on Metal games.
 
 This app was developed for fun and is not intended for professional use, though it can be useful for keeping an eye on system performance.

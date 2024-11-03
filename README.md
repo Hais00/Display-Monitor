@@ -2,12 +2,12 @@
   <img src="media/logo.png" alt="Logo" width="100" style="vertical-align: middle; margin-right: 10px;">
   <h1 style="display: inline; font-size: 2em; vertical-align: middle;">Display Monitor (RivaTuner for macOS)</h1>
 </div>
-## How to Use the Monitoring App
+### How to Use the Monitoring App
 
 This app is designed to provide an informative overlay, always visible in the top left corner of the screen, displaying basic performance data for the CPU, GPU, RAM, and temperatures. The overlay is currently non-clickable to avoid interfering with other windows.
 
-![Screenshot 1](/media/screenshot1)  
-![Screenshot 2](/media/screenshot2)
+![Screenshot 1](media/screenshot1.png)  
+![Screenshot 2](media/screenshot2.png)
 
 ### Requirements and Permissions
 To fully utilize the app, ensure the following requirements are met:

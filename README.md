@@ -22,3 +22,13 @@ To fully utilize the app, ensure the following requirements are met:
 - **Metal Overlay Integration**: While the app is running, it activates Metal's overlay to show information on FPS and GPU metrics on Metal games.
 
 This app was developed for fun and is not intended for professional use, though it can be useful for keeping an eye on system performance.
+
+### Installation Instructions
+To install the app, follow these steps:
+
+1. Navigate to the [Releases](#) section of this repository or access the main branch directly.
+2. Download the ZIP file containing the source code.
+3. Extract the ZIP file to a folder on your Mac.
+4. Open the project in **Xcode**.
+5. Build and run the app from Xcode to start using it.
+

@@ -5,7 +5,7 @@
 
 ### How to Use
 
-This app is designed to provide an informative overlay, always visible in the top left corner of the screen, displaying basic performance data for the CPU, GPU, RAM, and temperatures. The overlay is currently non-clickable to avoid interfering with other windows.
+This app is designed to provide an informative overlay, always visible on the screen, displaying information about sensors. The overlay is currently non-clickable to avoid interfering with other windows.
 
 ![Screenshot 1](media/screenshot1.png)  
 ![Screenshot 2](media/screenshot2.png)

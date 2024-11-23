@@ -9,6 +9,7 @@ This app is designed to provide an informative overlay, always visible on the sc
 
 ![Screenshot 1](media/screenshot1.png)  
 ![Screenshot 2](media/screenshot2.png)
+![Screenshot 3](media/screenshot3.png)
 
 ### Requirements and Permissions
 To fully utilize the app, ensure the following requirements are met:

@@ -27,8 +27,7 @@ This app was developed for fun and is not intended for professional use, though 
 To install the app, follow these steps:
 
 1. Navigate to the [Releases](#) section of this repository or access the main branch directly.
-2. Download the ZIP file containing the source code.
-3. Extract the ZIP file to a folder on your Mac.
-4. Open the project in **Xcode**.
-5. Build and run the app from Xcode to start using it.
+2. Download the ZIP file containing the app.
+3. Extract the app.
+4. Open.
 

@@ -13,17 +13,12 @@ This app is designed to provide an informative overlay, always visible in the to
 ### Requirements and Permissions
 To fully utilize the app, ensure the following requirements are met:
 
-1. **Apple Silicon**: Tested on M1, but it may work on other Apple Silicon models.
+1. **Apple Silicon**: Tested on M1/M4, but it may work on other Apple Silicon models.
 2. **Accessibility Permissions**: Go to `System Preferences > Security & Privacy > Accessibility` and add the app to allow the overlay functionality.
 3. **Administrator Password**: Required for using `powermetrics`, which collects system data.
 
 ### Key Features
 - **Persistent Overlay**: The overlay remains visible at all times, providing continuous monitoring of system metrics.
-- **Metrics Displayed**:
-  - CPU usage
-  - GPU usage
-  - Used RAM
-  - CPU and GPU temperatures (where available)
-  - **Metal Overlay Integration**: While the app is running, it activates Metal's overlay to show information on FPS and GPU metrics on Metal games.
+- **Metal Overlay Integration**: While the app is running, it activates Metal's overlay to show information on FPS and GPU metrics on Metal games.
 
 This app was developed for fun and is not intended for professional use, though it can be useful for keeping an eye on system performance.

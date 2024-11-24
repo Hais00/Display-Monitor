@@ -31,12 +31,12 @@ To fully utilize the app, ensure the following requirements are met:
     ![Screenshot 6](media/screenshot6.png)
 
     - Customize each category's **name**, **color**, and decide whether to display the **category name**.
-    ![Screenshot 7](media/screenshot7.png)
+    ![Screenshot 8](media/screenshot8.png)
 
     - Choose how categories are displayed: **new row** or **same row**.
   - **Sensor Customization**:
     - Personalize individual sensors with options to modify the **name**, **color**, and choose whether to display the sensor **name**.
-    ![Screenshot 8](media/screenshot8.png)
+    ![Screenshot 7](media/screenshot7.png)
 
 
 This app was developed for fun and is not intended for professional use, though it can be useful for keeping an eye on system performance.

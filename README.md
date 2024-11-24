@@ -8,7 +8,7 @@
 This app is designed to provide an informative overlay, always visible on the screen, displaying information about sensors. The overlay is currently non-clickable to avoid interfering with other windows.
 
 ![Screenshot 1](media/screenshot1.png)  
-![Screenshot 2](media/screenshot2.png)
+![Screenshot 2](media/screenshot2.png)  
 ![Screenshot 3](media/screenshot3.png)
 
 ### Requirements and Permissions
@@ -21,6 +21,23 @@ To fully utilize the app, ensure the following requirements are met:
 ### Key Features
 - **Persistent Overlay**: The overlay remains visible at all times, providing continuous monitoring of system metrics.
 - **Metal Overlay Integration**: While the app is running, it activates Metal's overlay to show information on FPS and GPU metrics on Metal games.
+- **Extensive Personalization**: Customize the overlay to suit your preferences and needs:
+  - **General Overlay Customization**:
+    - Adjust **background color**, **size**, **position**, **border rounding**, and **opacity**.
+    ![Screenshot 5](media/screenshot5.png)
+
+  - **Category Customization**:
+    - Create and manage **categories** to organize sensors.
+    ![Screenshot 6](media/screenshot6.png)
+
+    - Customize each category's **name**, **color**, and decide whether to display the **category name**.
+    ![Screenshot 7](media/screenshot7.png)
+
+    - Choose how categories are displayed: **new row** or **same row**.
+  - **Sensor Customization**:
+    - Personalize individual sensors with options to modify the **name**, **color**, and choose whether to display the sensor **name**.
+    ![Screenshot 8](media/screenshot8.png)
+
 
 This app was developed for fun and is not intended for professional use, though it can be useful for keeping an eye on system performance.
 
@@ -31,4 +48,3 @@ To install the app, follow these steps:
 2. Download the ZIP file containing the app.
 3. Extract the app.
 4. Open.
-

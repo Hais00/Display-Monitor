@@ -14,7 +14,7 @@ This app is designed to provide an informative overlay, always visible on the sc
 ### Requirements and Permissions
 To fully utilize the app, ensure the following requirements are met:
 
-1. **Apple Silicon**: Tested on M1/M4, but it may work on other Apple Silicon models.
+1. **Apple Silicon or Intel**: Tested on M1/M4 (base models), but it may work on other Apple Silicon models.
 2. **Accessibility Permissions**: Go to `System Preferences > Security & Privacy > Accessibility` and add the app to allow the overlay functionality.
 3. **Administrator Password**: Required for using `powermetrics`, which collects system data.
 

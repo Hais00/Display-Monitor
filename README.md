@@ -13,58 +13,39 @@ This app is designed to provide an informative overlay, always visible on the sc
 
 ---
 
-### Fan Management
+### Performance Impact
 
-The new fan management system offers three modes of operation:  
+Using the overlay above video games forces them into **composited mode**, which prevents them from benefiting from **direct mode**, potentially reducing performance. To minimize performance impact, it is recommended to:
 
-1. **Curve Mode**:  
-   - Dynamically adjusts fan speeds based on the temperature of the monitored sensor.  
-   - This mode is active only while the app is running; closing the app restores the fans to their default behavior.  
+- **Enable V-Sync**
+- **Disable HiDPI**
 
-2. **Forced Mode**:  
-   - Sets the fan speed to a fixed value, ensuring consistent performance.  
+#### Performance Comparison:
+- **With recommended settings** → Performance drop: **1-2% FPS**
+- **Without optimizations** → Performance drop: **5-10% FPS**
 
-3. **Automatic Mode**:  
-   - This is Apple’s default fan management system. Fans operate based on system firmware and thermal sensors.  
-
-When the app is closed, all fan settings automatically revert to **Automatic Mode**, ensuring seamless transition back to Apple's default management.  
-
-#### Detailed Fan View  
-To access the detailed fan management interface, simply click on the **fan text** displayed below the graphs. This will open a comprehensive view of fan-related metrics and controls.  
+If you want **zero** impact on performance, consider using one of the following methods instead:
+- **Web Server**: View overlay in a browser instead of directly on the game screen.
+- **File Logging**: Save overlay data to a file for later use.
+- **Dedicated OBS Server**: Functions as a pre-rendered overlay web source, accessible via **OBS browser source** and any external browser.
+- **Separate Physical Display**: Render the overlay on another screen.
 
 ---
 
-### Requirements and Permissions
+### Web Server, OBS Server, and File Logging
 
-To fully utilize the app, ensure the following requirements are met:
+This version introduces additional features for greater flexibility in how data is displayed and used:
 
-1. **Apple Silicon or Intel**: Tested on M1/M4 (base models), but it may work on other Apple Silicon models.
-2. **Accessibility Permissions**: Go to `System Preferences > Security & Privacy > Accessibility` and add the app to allow the overlay functionality.
+1. **Web Server Mode**:
+   - Run a local web server to display the overlay in a browser or external device.
+   - Allows for **remote monitoring** without impacting game performance.
 
----
+2. **OBS Server Mode**:
+   - Functions as a **pre-rendered overlay web source**, accessible via **OBS browser source** and **external browsers**.
+   - Ideal for **streaming setups** and real-time monitoring.
 
-### Key Features
-
-- **Persistent Overlay**: The overlay remains visible at all times, providing continuous monitoring of system metrics.
-- **Metal Overlay Integration**: While the app is running, it activates Metal's overlay to show information on FPS and GPU metrics on Metal games.
-- **Extensive Personalization**: Customize the overlay to suit your preferences and needs:
-  - **General Overlay Customization**:
-    - Adjust **background color**, **size**, **position**, **border rounding**, and **opacity**.
-    ![Screenshot 5](media/screenshot5.png)
-
-  - **Category Customization**:
-    - Create and manage **categories** to organize sensors.
-    ![Screenshot 6](media/screenshot6.png)
-
-    - Customize each category's **name**, **color**, and decide whether to display the **category name**.
-    ![Screenshot 8](media/screenshot8.png)
-
-    - Choose how categories are displayed: **new row** or **same row**.
-  - **Sensor Customization**:
-    - Personalize individual sensors with options to modify the **name**, **color**, and choose whether to display the sensor **name**.
-    ![Screenshot 7](media/screenshot7.png)
-
-This app was developed for fun and is not intended for professional use, though it can be useful for keeping an eye on system performance.
+3. **File Logging**:
+   - Save overlay data to a file in CSV format.
 
 ---
 
